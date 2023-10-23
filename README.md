@@ -1,6 +1,6 @@
 # Leveraging AWS AppConfig for Enabling SaaS Pricing Tiers
 
-**![Documentation](DOCUMENTATION.md)**
+**[Documentation](DOCUMENTATION.md)**
 
 ## Introduction
 
@@ -10,13 +10,13 @@ In this hands-on coding example, we demonstrate techniques for using [AWS AppCon
 
 The goal is to provide SaaS developers and architects with working code that illustrates how to use AppConfig in designing SaaS solutions without going to the extent of making a full, production-ready solution. Instead, we're hoping this can jump start your process and address some of the common challenges that you may face.
 
-The instructions below are intended to give you a step-by-step walk through for getting this solution up and running in your own AWS account. For a general description and overview of the solution, please see the ![developer's documentation](DOCUMENTATION.md).
+The instructions below are intended to give you a step-by-step walk through for getting this solution up and running in your own AWS account. For a general description and overview of the solution, please see the [developer's documentation](DOCUMENTATION.md).
 
 > **Note** : This is not production grade and simply meant as a hands-on coding example.
 
 ## High Level Architecture
 
-Figure 1 represents the high-level architecture of this sample SaaS solution. As mentioned before, please see the ![developer's documentation](DOCUMENTATION.md) to understand the architecture in more detail.
+Figure 1 represents the high-level architecture of this sample SaaS solution. As mentioned before, please see the [developer's documentation](DOCUMENTATION.md) to understand the architecture in more detail.
 
 <p align="center"><img src="images/high_level_architecture.png" alt="High Level Architecture"/>Figure 1: High Level Architecture</p>
 
@@ -147,10 +147,10 @@ The application is structured into four CDK stacks, each deploying and managing 
 
 > **Note**: In this sample application, `RemovalPolicy.DESTROY` is used to ensure that the AWS resources created are automatically removed when the stack is deleted. This is helpful in maintaining a clean testing environment and avoiding unwanted costs. Consider `RemovalPolicy.RETAIN` or `RemovalPolicy.SNAPSHOT` for production environments to safeguard against accidental data loss. ([More information on RemovalPolicy](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.RemovalPolicy.html)).
 
-* ![backend_stack.py](stacks/backend_stack.py) configures and deploys [AWS Lambda](https://aws.amazon.com/lambda/), [Amazon API Gateway](https://aws.amazon.com/api-gateway/), and related resources.
-* ![identity_stack.py](stacks/identity_stack.py) configures and deploys [Amazon Cognito](https://aws.amazon.com/cognito/).
-* ![data_stack.py](stacks/data_stack.py) configures and deploys [Amazon DynamoDB](https://aws.amazon.com/dynamodb/).
-* ![config_stack.py](stacks/config_stack.py) configures and deploys AppConfig.
+* [backend_stack.py](stacks/backend_stack.py) configures and deploys [AWS Lambda](https://aws.amazon.com/lambda/), [Amazon API Gateway](https://aws.amazon.com/api-gateway/), and related resources.
+* [identity_stack.py](stacks/identity_stack.py) configures and deploys [Amazon Cognito](https://aws.amazon.com/cognito/).
+* [data_stack.py](stacks/data_stack.py) configures and deploys [Amazon DynamoDB](https://aws.amazon.com/dynamodb/).
+* [config_stack.py](stacks/config_stack.py) configures and deploys AppConfig.
 
 ## Clean up
 
@@ -164,8 +164,8 @@ cdk destroy --all
 
 ## Security
 
-See ![CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
 
 ## License
 
-This library is licensed under the MIT-0 License. See the ![LICENSE](LICENSE) file.
+This library is licensed under the MIT-0 License. See the [LICENSE](LICENSE) file.
