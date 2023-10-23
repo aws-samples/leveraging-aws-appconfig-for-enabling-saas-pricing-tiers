@@ -1,0 +1,3 @@
+python-jose[cryptography]
+requests
+urllib3<2
