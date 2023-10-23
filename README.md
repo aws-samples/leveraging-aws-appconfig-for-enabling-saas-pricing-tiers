@@ -57,7 +57,7 @@ cd leveraging-aws-appconfig-for-enabling-saas-pricing-tiers
 
 - For [AWS Cloud9](https://aws.amazon.com/cloud9/) (Cloud9) users
 
-	We recommend selecting an Instance type of at least `t3.small`
+	We recommend selecting an instance type of at least `t3.small`
 
 	Resize the [Amazon EBS](https://docs.aws.amazon.com/cloud9/latest/user-guide/move-environment.html) volume to 20 GiB
 
