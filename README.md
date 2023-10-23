@@ -55,7 +55,7 @@ Move into the cloned repository
 cd leveraging-aws-appconfig-for-enabling-saas-pricing-tiers
 ```
 
-- For [AWS Cloud9](https://aws.amazon.com/cloud9/) (Cloud9) Users
+- For [AWS Cloud9](https://aws.amazon.com/cloud9/) (Cloud9) users
 
 	We recommend selecting an Instance type of at least `t3.small`
 
